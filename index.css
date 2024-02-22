@@ -1,0 +1,916 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+body {
+    /* background-color: #c12121; */
+    font-family: Arial, sans-serif;
+
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1em;
+    font-weight: 500;
+    /* padding-bottom: 50px; */
+}
+
+strong {
+    font-weight: 700;
+}
+
+.container {
+    margin: auto;
+    padding: 0px 0px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    cursor: pointer;
+}
+
+
+/* ----Start header------ */
+.header {
+    padding: 20px 35px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: rgb(0 0 0 / 60%);
+    justify-content: space-between;
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+
+}
+
+.logo_cont {
+    font-weight: 700;
+
+}
+
+.fa {
+    font-size: larger;
+}
+
+nav {
+    display: none;
+    padding: 15px;
+    font-size: 14px;
+}
+
+
+.nav1{
+    display: none;
+}
+.nav_link , .nav_link1 {
+    display: flex;
+    /* margin-right: 10px; */
+    flex-direction: column;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+   
+    background-color: white;
+}
+
+.list_item, .list_items1 {
+    width: 100%;
+    display: block;
+    padding: 2px;
+}
+
+.link_item, .link_items1 {
+   
+    /* padding: 10px; */
+    font-weight: 600;
+    color: rgb(0 0 0 / 60%);
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+
+a.list_link1{
+    padding: 10px
+}
+
+#closenav{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    background-color: #fff;
+}
+
+
+/* ****main_bg ***** */
+.main_bg {
+    background-image: url(image/painting2.png);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center top;
+    /* height: 100vh; */
+    min-height: 400px;
+    color: #fff;
+    margin-bottom: 50px;
+
+}
+
+.main_bg_text {
+    word-wrap: break-word;
+    padding-top: 20px;
+    margin: auto;
+    width: 80%;
+   
+}
+
+.main_bg_text h3 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    word-wrap: normal;
+    font-size: 22px;
+}
+
+.main_bg_text #paint {
+    font-size: 35px;
+    padding-bottom: 0px;
+
+
+}
+
+.main_bg_text .btn_quote {
+    margin: 40px 0px;
+    width: fit-content;
+    background-image: url(image/blue-thingy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    /* background-position: center ; */
+    background-blend-mode: normal;
+    border-radius: 15px;
+  
+}
+
+.main_bg_text .btn_quote a {
+    color: #fff;
+    /* display: block; */
+    width: fit-content;
+    /* padding: 20px 40px; */
+
+}
+
+.main_bg_text #call {
+    font-size: 18px;
+    margin-bottom: 27px;
+}
+
+.main_bg_text #call strong {
+    color: black;
+
+}
+
+.main_bg_text #call a {
+    color: #fff;
+
+}
+
+/* ****end main_bg *** */
+
+/* ******* why_ondon****** */
+.why_ondon {
+    /* width: 80%; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px;
+
+}
+
+.child {
+    background-image: linear-gradient(90deg, rgba(0, 18, 42, 0.03) 57%, rgba(0, 18, 42, 0) 100%);
+    padding: 40px 20px 10px 20px;
+
+}
+
+.child h4 {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #a0a6b0 !important;
+    letter-spacing: 4px;
+    line-height: 1.8em;
+    margin-bottom: 10px;
+
+}
+
+.child h3 {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 1.4em;
+    color: hwb(240 20% 68%);
+    margin-bottom: 50px;
+}
+
+.child p {
+    font-size: 14px;
+    color: #666666;
+    line-height: 1.8em;
+}
+
+.why_ondon .child:nth-child(2) {
+    margin-top: 10px;
+    background-image: #fff;
+   
+}
+
+
+.why_ondon .child:nth-child(2) .box {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.8em;
+    padding: 10px 25px;
+    color: #666666;
+    font-size: 14px;
+
+    word-wrap: break-word;
+}
+
+.why_ondon .child:nth-child(2) .box .sub_box span {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: left;
+    color: #333;
+    padding-bottom: 14px;
+
+
+}
+
+.why_ondon .child:nth-child(2) .box .sub_box img {
+    max-width: 100px;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+
+
+.why_ondon .child .box {}
+
+.why_ondon .child .box .sub_box:nth-child(2) {
+    margin: 10px;
+    width: 70%;
+
+
+}
+
+.why_ondon .child .box .sub_box a {
+    color: #2b5a93 !important;
+    border-width: 0px !important;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600 !important;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-transform: uppercase !important;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* ****** End why_ondon**** */
+
+/* **** services ****** */
+.services {
+    padding: 50px;
+    font-size: 13px;
+    background-image: url(image/painting_service_27.jpg);
+    background-size: cover;;
+    background-position: top center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 1.4em;
+    text-align: left;
+}
+
+.services h3 {
+    margin: 10px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.services .service_text {
+    padding: 20px;
+    margin: 10px;
+    outline: 2px solid rgba(0, 128, 128, 0.475);
+    width: 100%;
+    
+}
+
+/* ***** End services ***** */
+
+
+/* ****** ondon painting ***** */
+.ondon_painting {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+
+.ondon_painting .child {}
+
+.ondon_painting .child:nth-child(1) img {
+    width: 100%;
+    border-top-right-radius: 90%;
+    height: auto;
+}
+
+.ondon_painting .child:nth-child(1) {}
+
+.ondon_painting .child:nth-child(3) img {
+    border-bottom-left-radius: 0%;
+    height: auto;
+
+
+}
+
+.ondon_painting .child span {
+    color: #333;
+    padding-bottom: 0px;
+    line-height: 1em;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.ondon_painting .child h3 {
+    line-height: 1.4em;
+    font-weight: 700;
+    color: #2b5a93 !important;
+    line-height: 1.4em;
+}
+
+.ondon_painting .child p {
+    line-height: 1.9em;
+    padding: 10px;
+}
+
+.ondon_painting .child button {
+    
+    border: none;
+    background-color: transparent;
+    width: 100%;
+
+
+}
+
+.ondon_painting .child a {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(image/blue-thingy.png);
+}
+
+/* ****** End ondon painting ***** */
+
+/* ******** gallerywork ******** */
+.gallerywork {
+    padding: 50px;
+
+}
+
+.gallerywork .recent_work {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
+    gap:70px;
+}
+
+.gallerywork .recent_work .box h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #a0a6b0 !important;
+    letter-spacing: 4px;
+    font-size: 12px;
+    line-height: 1.8em;
+    margin-bottom: 6px;
+}
+
+.recent_work .box h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #2b5a93 !important;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+}
+
+
+.recent_work .box button {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+   
+
+
+}
+.recent_work .box button a{
+    padding: 20px;
+    display: block;
+    width: 100%;
+    background-position: cover;
+    background-size: 100%;
+    text-transform: uppercase;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 14px;
+    font-weight: 600;
+    background-position: center;
+    background-blend-mode: normal;
+    color: #fff;
+    background-image: url(image/blue-thingy.png);
+}
+
+
+
+
+.gallerywork .gallery_pics{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.gallery_pics .box{
+
+}
+
+.gallery_pics .box img{
+    width: 100%;
+    height: auto;
+
+}
+/* ******* End gallerywork ***** */
+
+/* **** testimonial **** */
+.testmonials{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.testmonials h3{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #a0a6b0;
+    letter-spacing: 4px;
+    line-height: 1.8em;
+}
+
+.testmonials p{
+    margin: 30px;
+    
+}
+.testmonials #test{
+    font-family: 'Faustina',sans-serif;
+    color: #242424;
+    /* font-size: 14px; */
+    font-weight: 300;
+    padding: 10px 0px;
+    font-style: italic;
+    /* font-size: 24px!important; */
+    /* color: #2b5a93!important; */
+    line-height: 1.7em;
+    text-shadow: 0em 0.1em 0.1em rgba(0,0,0,0);
+}
+
+/* **** end testimonial **** */
+
+/* ***** get_quotev **** */
+
+.paintmark{
+    background-size: 100%;
+    width: 100%;
+    margin: auto;
+    background-position:center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -10;
+}
+.get_quote {
+    position:relative;
+    text-align: center;
+    padding:50px 0px;
+    line-height: 1.8em;
+    font-weight: 700;
+    width: 100%;
+    padding-top: 26vw;
+    background:url(image/footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    }
+
+    /* **** Contact ****** */
+    .white{
+        padding: 0;
+        top: 0;
+        background-color: none;
+
+    }
+
+    .get_quote h4{
+        font-family: 'Poppins',sans-serif;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+        font-size: 12px;
+        letter-spacing: 4px;
+        line-height: 1.8em
+    }
+
+    .get_quote h2, span{
+        font-weight: 700;
+        color: #fff;
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+    .get_quote p{
+        line-height: 1.8em;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 1.8em;
+        word-wrap: break-word;
+        padding: 20px;
+    }
+    
+/* ***** End get_quotev **** */
+
+/* ***** footer ***** */
+footer{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    word-wrap:break-word ;
+    flex-direction: column;
+    padding: 50px 0px;
+    /* font-size: 10px; */
+    font-weight: 700;
+    gap: 30px;
+}
+.footer strong{
+    font-size: 17px;
+    line-height: 1.8em;
+
+}
+
+.footer p{
+    margin: 10px;
+}
+.footer  a{
+    color: #fff;
+    font-size:14px ;
+    text-decoration: underline;
+    font-weight: 100;
+    line-height: 2em;
+    margin: 10px;
+
+}
+
+.copyright{
+    font-size: small;
+    color: #999999;
+    background-color: #000;
+    padding: 50px 0px;
+    text-transform: capitalize;
+}
+
+/* ***** End  footer ***** */
+
+
+
+
+
+
+
+/* ******* Screen size ****** */
+@media only screen and (max-width:500px){
+   nav{
+    margin-top: 0px;
+    margin-top: 60px;
+   } 
+
+   .header{
+    margin-bottom: 40px;
+   }
+   .main_bg{
+    margin-top: 50px;
+   }
+   .fa{
+    font-size: 30px;
+   }
+}
+
+    
+
+
+
+@media only screen and (min-width: 500px) and (max-width:620px){
+   
+    .main_bg{
+        /* margin-top: 50px; */
+    }
+   
+    .fa{
+        font-size: 25px;
+    }
+    .main_bg_text{
+        padding-top:60px
+    }
+ 
+
+   .nav_link{
+    padding-top: 40px;
+    flex-direction: row;
+   }
+
+  
+}
+
+@media only screen and (min-width:640px) and (max-width:900px){
+    
+     .main_bg_text{
+        /* margin-top:80px; */
+    }
+    .handbar{
+        /* display: none; */
+    }
+    nav{
+        /* display:block; */
+    }
+
+    .fa{
+        font-size: 26px;
+    }
+
+    .nav_link{
+        flex-direction: row;
+        margin-top: 40px;
+    }
+}
+
+
+
+
+
+
+/* *****Laptop screen ***** */
+
+@media only screen and (min-width:900px){
+
+        .main_bg_text .btn_quote a {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            padding: 30px;
+        }
+    
+        .contact_info{
+            display: flex;
+            justify-content: space-between;
+            margin: 30px;
+        }
+    .link_item{
+        display: none;
+    }
+
+    
+    .why_ondon{
+        flex-direction: row;
+        width: fit-content;
+        align-items: center;
+        width: 80%;
+    }
+    .why_ondon .child p{
+        font-size: 17px;
+    }
+    .why_ondon .child:nth-child(1){
+        width: 100%;
+        /* outline: 3px solid red; */
+
+    }
+    .why_ondon .child:nth-child(1) h4{
+        font-size: 19;
+    }
+    .why_ondon .child:nth-child(1) h3{
+        font-size: 30;
+    }
+
+    .services{
+        opacity: 0.8;
+        font-weight: 700;
+    }
+    .service_text{
+        color: aliceblue;
+        background-color: #66666691
+    }
+
+
+
+    .ondon_painting{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .ondon_painting .child{
+        width: 50%;
+    }
+    .ondon_painting .child:nth-child(1) img{
+        width: 70%;
+    }
+    .ondon_painting h3{
+        font-size:40px
+    }
+    .ondon_painting .child p {
+        font-size: 15px;
+    }
+    .ondon_painting .child a {
+        display: block;
+        width: 40%;
+        margin: auto;
+        padding: 16px;
+    }
+
+    
+
+    .gallerywork .recent_work{
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+    }
+    .gallerywork .gallery_pics{
+        flex-direction: row;
+    }
+
+
+    .testmonials{
+        padding: 20px;
+    }
+    .testmonials #test{
+        font-size: 25px;
+        line-height: 1.9em;
+
+    }
+    
+    .recent_work .box h3 {
+    font-size: 30px;
+    }
+
+   .recent_work .box button a {
+    font-size: 15px;
+
+    }
+
+    .footer {
+
+        margin: auto;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .main_bg{
+        min-height: 90vh;
+        background-position: 100%;
+        padding-top: 40px;
+    }
+    .main_bg_text{
+        padding-top: 50px;
+        line-height: 3em;
+    }
+    .main_bg_text .btn_quote a {
+        line-height: 1.5em;
+
+    }
+
+    .main_bg_text #call strong{
+        font-size: larger;
+    }
+    
+    .main_bg_text #call a {
+    font-size: x-large;
+    }
+    .main_bg_text #paint{
+        font-size: 50px;
+    }
+
+
+    .handbar{
+        display: none;
+    }
+
+
+
+    .nav1{
+        display:block;
+        
+    }
+    .nav_link1{
+        font-size: 14px;
+        font-weight: 700;
+        color: #666666 !important;
+        flex-direction: row;
+
+        gap: 30px;
+        justify-content: space-between;
+        /* outline: 2px solid teal; */
+    }
+    
+    .list_items1{
+        padding: 20px;
+
+    }
+    .list_link1{
+       border: 1px solid black;
+       padding: 20px;
+    }
+    .list_link1{
+
+        padding: 10px
+    }
+
+    /* ***** contact_info *** */
+    .contact_info{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+   
+
+}
+
+
+@media only screen and (min-width:1400px){
+
+    .container{
+        max-width:1200px ;
+     }
+     .main_bg{
+        min-height: 80vh;
+     }
+     img{
+        max-width: 100%;
+     }
+     .header{
+        justify-content: space-around;
+     }
+        
+     .list_link1{
+        border: 1px solid black;
+        padding: 20px;
+     }
+        
+}
+
+
+
